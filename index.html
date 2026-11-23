@@ -1,68 +1,171 @@
-<html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · Ring Sizer</title>
+<meta name="description" content="Privacy policy for the Ring Sizer app (com.abdelquddos.ringsizer). سياسة خصوصية تطبيق مقاس الخاتم.">
+<meta name="color-scheme" content="dark light">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&family=Reem+Kufi:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:#0E0D0B; --card:#17150F; --text:#EDE6D6; --muted:#A79E8A;
+    --gold:#D4AF5A; --gold-strong:#E8C87E;
+    --line:rgba(212,175,90,.26); --line-soft:rgba(212,175,90,.14);
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --bg:#FBF8F1; --card:#FFFFFF; --text:#241F16; --muted:#5F5748;
+      --gold:#8A6516; --gold-strong:#6E4E0C;
+      --line:rgba(110,78,12,.30); --line-soft:rgba(110,78,12,.16);
+    }
+  }
+  * { box-sizing:border-box; }
+  html { scroll-behavior:smooth; }
+  body {
+    margin:0; background:var(--bg); color:var(--text);
+    font:16px/1.8 "IBM Plex Sans Arabic", system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap { max-width:720px; margin:0 auto; padding:32px 16px 72px; }
+
+  header { text-align:center; padding-top:12px; }
+  .mark { display:block; margin:0 auto 10px; width:64px; height:64px; color:var(--gold); }
+  .brand { font-family:"Reem Kufi", serif; font-size:40px; line-height:1.2; color:var(--gold-strong); margin:0; }
+  .sub { color:var(--muted); margin:6px 0 0; font-size:16px; }
+
+  nav.lang {
+    position:sticky; top:0; z-index:10;
+    display:flex; gap:8px; justify-content:center; flex-wrap:wrap;
+    margin:24px 0 8px; padding:10px 0;
+    background:var(--bg);
+    border-block:1px solid var(--line-soft);
+  }
+  nav.lang a {
+    color:var(--gold-strong); border:1px solid var(--line); border-radius:999px;
+    padding:5px 18px; text-decoration:none; font-size:15px; font-weight:600;
+    background:var(--card);
+  }
+  nav.lang a:hover, nav.lang a:focus-visible { border-color:var(--gold); outline:none; }
+
+  section {
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:24px 22px;
+    margin-top:24px;
+    scroll-margin-top:64px;
+  }
+  h2 { font-family:"Reem Kufi", serif; color:var(--gold-strong); font-size:27px; margin:0 0 6px; }
+  h3 { font-size:17px; color:var(--gold-strong); margin:24px 0 6px; }
+  p, li { color:var(--text); }
+  p { margin:8px 0; }
+  .muted { color:var(--muted); font-size:15px; margin-top:0; }
+  ul { padding-inline-start:22px; margin:8px 0; }
+  li { margin:5px 0; }
+  a { color:var(--gold-strong); text-underline-offset:3px; }
+  .site-link { color:var(--muted); font-size:14px; text-align:center; margin-top:28px; }
+  [dir="rtl"] { text-align:right; }
+  [dir="rtl"] .brand, [dir="rtl"] h2, [dir="rtl"] h3, [dir="rtl"] header { text-align:center; }
+  [dir="ltr"] { text-align:left; }
+  [lang="ar"] { font-family:"IBM Plex Sans Arabic", system-ui, sans-serif; }
+</style>
+</head>
 <body>
-<h2>Privacy Policy</h2>
-<p>AbdelQuddos built the "RingMeter" app as a free app. This SERVICE is provided by AbdelQuddos at no cost and is intended
-    for use as is.</p>
-<p>This page is used to inform website visitors regarding my policies with the collection, use, and
-    disclosure of Personal Information if anyone decided to use my Service.</p>
-<p>If you choose to use my Service, then you agree to the collection and use of information in
-    relation with this policy. The Personal Information that I collect is used for providing and
-    improving the Service. I will not use or share your information with anyone except as described
-    in this Privacy Policy.</p>
-<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
-    which is accessible at "RingMeter", unless otherwise defined in this Privacy Policy.</p>
+<div class="wrap">
 
-<p><strong>Information Collection and Use</strong></p>
-<p>The app does use third party services that may collect information used to identify you.
+  <header>
+    <svg class="mark" viewBox="0 0 64 64" role="img" aria-label="Gold ring mark">
+      <circle cx="32" cy="42" r="17" fill="none" stroke="currentColor" stroke-width="5"/>
+      <circle cx="32" cy="42" r="12" fill="none" stroke="currentColor" stroke-width="1" opacity=".45"/>
+      <path d="M32 7 L41 18 L32 28 L23 18 Z" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round"/>
+      <path d="M23 18 H41 M32 7 V28" fill="none" stroke="currentColor" stroke-width="1" opacity=".5"/>
+    </svg>
+    <p class="brand">Ring Sizer · مقاس الخاتم</p>
+    <p class="sub">Privacy Policy · سياسة الخصوصية</p>
+  </header>
 
-<p><strong>Log Data</strong></p>
-<p>I want to inform you that whenever you use my Service, in case of an error in the app I collect
-    data and information (through third party products) on your phone called Log Data. This Log Data
-    may include information such as your devices’s Internet Protocol (“IP”) address, device name,
-    operating system version, configuration of the app when utilising my Service, the time and date
-    of your use of the Service, and other statistics.</p>
+  <nav class="lang" aria-label="Language / اللغة">
+    <a href="#en" lang="en">English</a>
+    <a href="#ar" lang="ar" dir="rtl">العربية</a>
+  </nav>
 
-<p><strong>Service Providers</strong></p> <!-- This part need seem like it's not needed, but if you use any Google services, or any other third party libraries, chances are, you need this. -->
-<p>I may employ third-party companies and individuals due to the following reasons:</p>
-<ul>
-    <li>To facilitate our Service;</li>
-    <li>To provide the Service on our behalf;</li>
-    <li>To perform Service-related services; or</li>
-    <li>To assist us in analyzing how our Service is used.</li>
-</ul>
-<p>I want to inform users of this Service that these third parties have access to your Personal
-    Information. The reason is to perform the tasks assigned to them on our behalf. However, they
-    are obligated not to disclose or use the information for any other purpose.</p>
+  <section id="en" dir="ltr" lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Effective date: 23 November 2026</p>
+    <p>This policy explains how <b>Ring Sizer</b> (package <code>com.abdelquddos.ringsizer</code>) handles your information. It is a free app, and this page describes what stays on your device and what, if anything, leaves it.</p>
 
-<p><strong>Security</strong></p>
-<p>I value your trust in providing us your Personal Information, thus we are striving to use
-    commercially acceptable means of protecting it. But remember that no method of transmission over
-    the internet, or method of electronic storage is 100% secure and reliable, and I cannot
-    guarantee its absolute security.</p>
+    <h3>No account, no sign-up</h3>
+    <p>You do not need an account to use the app. Your measurements, the saved sizes (including the names you type for them), your screen calibration value and your settings are stored only on your device, in the app's local storage. We never upload them. They are deleted when you uninstall the app or clear its data.</p>
 
-<p><strong>Links to Other Sites</strong></p>
-<p>This Service may contain links to other sites. If you click on a third-party link, you will be
-    directed to that site. Note that these external sites are not operated by me. Therefore, I
-    strongly advise you to review the Privacy Policy of these websites. I have no control over, and
-    assume no responsibility for the content, privacy policies, or practices of any third-party
-    sites or services.</p>
+    <h3>What the app can access</h3>
+    <p>The app does not access your camera, microphone, location or contacts. Measuring a ring size uses the screen only — you place a ring on the screen and read the result.</p>
 
-<p><strong>Children’s Privacy</strong></p>
-<p>This Services do not address anyone under the age of 13. I do not knowingly collect personal
-    identifiable information from children under 13. In the case I discover that a child under 13
-    has provided me with personal information, I immediately delete this from our servers. If you
-    are a parent or guardian and you are aware that your child has provided us with personal
-    information, please contact me so that I will be able to do necessary actions.</p>
+    <h3>Sharing a size</h3>
+    <p>Nothing is shared automatically. A size is sent only when you tap <b>Share</b>, which opens Android's share sheet and passes the result to the app you choose. We do not receive it.</p>
 
-<p><strong>Changes to This Privacy Policy</strong></p>
-<p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page
-    periodically for any changes. I will notify you of any changes by posting the new Privacy Policy
-    on this page. These changes are effective immediately, after they are posted on this page.</p>
+    <h3>Advertising</h3>
+    <p>Google AdMob displays ads in the app. To serve and measure ads, AdMob may collect your advertising ID, device and app-interaction data, and your IP address. See <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Google's policy</a>. You can reset or delete your advertising ID in Android settings. If you are in the EEA or UK, you may be shown a consent message before ads are shown.</p>
 
-<p><strong>Contact Us</strong></p>
-<p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-    me.</p>
-<p>This Privacy Policy page was created at <a href="https://privacypolicytemplate.net"
-                                              target="_blank">privacypolicytemplate.net</a>.</p>
+    <h3>Analytics</h3>
+    <p>Google Firebase Analytics collects anonymous usage events and device information to help us improve the app. See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase privacy information</a>.</p>
+
+    <h3>Children</h3>
+    <p>The app is not directed at children under 13, and we do not knowingly collect data from them.</p>
+
+    <h3>Deleting your data</h3>
+    <p>Uninstall the app or clear its data to remove your measurements, saved sizes, calibration and settings. To deal with advertising data, use the ads settings on your Android device.</p>
+
+    <h3>Security</h3>
+    <p>Your measurements and settings never leave your device. Communication with our advertising and analytics providers is handled by Android and those providers.</p>
+
+    <h3>Changes to this policy</h3>
+    <p>We may update this policy from time to time. Any update will be posted here with a new effective date.</p>
+
+    <h3>Contact</h3>
+    <p>For any privacy question, email <a href="mailto:abdquddos@gmail.com">abdquddos@gmail.com</a>.</p>
+  </section>
+
+  <section id="ar" dir="rtl" lang="ar">
+    <h2>سياسة الخصوصية</h2>
+    <p class="muted">تاريخ النفاذ: 23 نوفمبر 2026</p>
+    <p>توضح هذه السياسة كيف يتعامل تطبيق <b>مقاس الخاتم</b> (الحزمة <code>com.abdelquddos.ringsizer</code>) مع معلوماتك. التطبيق مجاني، وتوضح هذه الصفحة ما الذي يبقى على جهازك وما الذي يخرج منه إن وُجد.</p>
+
+    <h3>لا حساب ولا تسجيل</h3>
+    <p>لا تحتاج إلى حساب لاستخدام التطبيق. تُحفظ قياساتك، والمقاسات المحفوظة (بما فيها الأسماء التي تكتبها لها)، وقيمة معايرة الشاشة، وإعداداتك على جهازك فقط، داخل التخزين المحلي للتطبيق، ولا نرفعها إلى أي جهة. تُحذف عند حذف التطبيق أو مسح بياناته.</p>
+
+    <h3>ما يصل إليه التطبيق</h3>
+    <p>لا يصل التطبيق إلى الكاميرا أو الميكروفون أو الموقع أو جهات الاتصال. قياس مقاس الخاتم يتم على الشاشة فقط، تضع الخاتم على الشاشة وتقرأ النتيجة.</p>
+
+    <h3>مشاركة المقاس</h3>
+    <p>لا تتم أي مشاركة تلقائياً. لا يُرسل المقاس إلا عندما تضغط زر <b>مشاركة</b>، الذي يفتح قائمة المشاركة في أندرويد ويمرر النتيجة إلى التطبيق الذي تختاره. نحن لا نستلمها.</p>
+
+    <h3>الإعلانات</h3>
+    <p>تعرض شركة Google AdMob إعلانات داخل التطبيق. لعرض الإعلانات وقياسها، قد تجمع AdMob معرّف الإعلانات، ومعلومات الجهاز والتفاعل مع التطبيق، وعنوان IP. راجع <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">سياسة Google</a>. يمكنك إعادة ضبط معرّف الإعلانات أو حذفه من إعدادات أندرويد. وإذا كنت داخل المنطقة الاقتصادية الأوروبية أو المملكة المتحدة، قد تظهر لك رسالة موافقة قبل عرض الإعلانات.</p>
+
+    <h3>التحليلات</h3>
+    <p>تجمع Google Firebase Analytics أحداث استخدام مجهولة ومعلومات عن الجهاز لمساعدتنا في تحسين التطبيق. راجع <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">معلومات خصوصية Firebase</a>.</p>
+
+    <h3>الأطفال</h3>
+    <p>التطبيق غير موجه للأطفال دون 13 عاماً، ولا نجمع عن قصد أي بيانات منهم.</p>
+
+    <h3>حذف بياناتك</h3>
+    <p>احذف التطبيق أو امسح بياناته لإزالة قياساتك، والمقاسات المحفوظة، والمعايرة، والإعدادات. أما بيانات الإعلانات فاستخدم إعدادات الإعلانات في جهاز أندرويد.</p>
+
+    <h3>الأمان</h3>
+    <p>لا تغادر قياساتك وإعداداتك جهازك أبداً. أما الاتصال بمزوّدي الإعلانات والتحليلات فيتولّاه أندرويد وهؤلاء المزوّدون.</p>
+
+    <h3>التغييرات على هذه السياسة</h3>
+    <p>قد نحدّث هذه السياسة من حين لآخر، ويُنشر أي تحديث هنا بتاريخ نفاذ جديد.</p>
+
+    <h3>تواصل معنا</h3>
+    <p>لأي سؤال عن الخصوصية، راسلنا على <a href="mailto:abdquddos@gmail.com">abdquddos@gmail.com</a>.</p>
+  </section>
+
+  <p class="site-link">Ring Sizer · مقاس الخاتم</p>
+
+</div>
 </body>
 </html>
